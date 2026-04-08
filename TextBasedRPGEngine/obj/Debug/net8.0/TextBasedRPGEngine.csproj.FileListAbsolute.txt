@@ -1,0 +1,14 @@
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/bin/Debug/net8.0/TextBasedRPGEngine
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/bin/Debug/net8.0/TextBasedRPGEngine.deps.json
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/bin/Debug/net8.0/TextBasedRPGEngine.runtimeconfig.json
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/bin/Debug/net8.0/TextBasedRPGEngine.dll
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/bin/Debug/net8.0/TextBasedRPGEngine.pdb
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.GeneratedMSBuildEditorConfig.editorconfig
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.AssemblyInfoInputs.cache
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.AssemblyInfo.cs
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.csproj.CoreCompileInputs.cache
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.dll
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/refint/TextBasedRPGEngine.dll
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.pdb
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/TextBasedRPGEngine.genruntimeconfig.cache
+/home/jomiloju/vs code projects/TextBasedRPGEngine/TextBasedRPGEngine/obj/Debug/net8.0/ref/TextBasedRPGEngine.dll
