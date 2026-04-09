@@ -19,6 +19,6 @@
 
         // Start the Battle
         Battle arena = new Battle();
-        arena.Start(player, trainingDummy);
+        arena.Start(new List<Hero> { player }, new List<IDamageable> { trainingDummy });
     }
 }

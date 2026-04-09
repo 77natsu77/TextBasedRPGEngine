@@ -1,5 +1,5 @@
 public interface IEquippable : IInventoryItem
 {
-    void Equip(Hero hero);
-    void Unequip(Hero hero);
+    void Equip(IAttacker attacker);
+    void Unequip(IAttacker attacker);
 }

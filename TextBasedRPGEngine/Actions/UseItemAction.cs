@@ -1,7 +1,7 @@
 public class UseItemAction : IAction
 {
     private IConsumable _item;
-
+   public TargetType SuggestedTarget => _item.SuggestedTarget;
     public string Name => $"Use {_item.Name} ({_item.Quantity})";
 
     public UseItemAction(IConsumable item)

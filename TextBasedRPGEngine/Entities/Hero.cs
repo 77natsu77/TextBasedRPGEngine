@@ -4,6 +4,7 @@ public class Hero : IAttacker, IDamageable
     public int Health { get; private set; }
     public int MaxHealth {get;}
     public int BaseDamage { get; }
+    public int AttackPower => BaseDamage; // Could be modified by buffs, equipment, etc.
     public bool IsAlive => Health > 0;
     private const int InventoryMaxWeight = 100; // Arbitrary limit for how much the hero can carry
     

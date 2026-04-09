@@ -1,0 +1,1 @@
+public enum BattleResult { Victory, Defeat, Fled }

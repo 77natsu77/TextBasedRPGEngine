@@ -6,15 +6,9 @@ public class Inventory
     public int MaxWeight { get; }
 
     // This allows other classes to SEE the items but not MODIFY the list directly
-    // Also, we clean up any items with 0 quantity before showing the list
-    public IReadOnlyList<IInventoryItem> Items 
-    {
-        get 
-        {
-            _items.RemoveAll(i => i.Quantity <= 0);
-            return _items.AsReadOnly();
-        }
-    }
+
+    public IReadOnlyList<IInventoryItem> Items => _items.AsReadOnly();
+
 
     public int CurrentWeight => _items.Sum(item => item.TotalWeight);
 
@@ -44,4 +38,22 @@ public class Inventory
         return true;
     }
 
+    public void CleanupEmptyItems()
+    {
+        _items.RemoveAll(i => i.Quantity <= 0);
+    }
+
+    public bool RemoveItem(string itemName, int quantity = 1)
+    {
+        var item = _items.FirstOrDefault(i => i.Name == itemName);
+        if (item == null || item.Quantity < quantity)
+        {
+            Console.WriteLine($"Not enough {itemName} to remove.");
+            return false;
+        }
+
+        item.Quantity -= quantity;
+        CleanupEmptyItems();
+        return true;
+    }
 }

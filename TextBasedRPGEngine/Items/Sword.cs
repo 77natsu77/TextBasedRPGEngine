@@ -9,13 +9,13 @@ public class Sword : IEquippable, IAttacker
     // IAttacker properties
     public int BaseDamage => 15;
 
-    public void Equip(Hero hero)
+    public void Equip(IAttacker hero)
     {
         Console.WriteLine($"{hero.Name} equips the {Name}.");
-        hero.CombatMoves.Add(new Slash());
+        hero.CombatMoves.Add(new Slash(BaseDamage));
     }
 
-    public void Unequip(Hero hero)
+    public void Unequip(IAttacker hero)
     {
         Console.WriteLine($"{hero.Name} unequips the {Name}.");
         hero.CombatMoves.RemoveAll(move => move is Slash);

@@ -2,7 +2,7 @@ public class HealAction : IAction
 {
     private int _amount;
     public string Name { get; }
-
+    public TargetType SuggestedTarget => TargetType.Ally;
     public HealAction(string name, int amount)
     {
         Name = name;

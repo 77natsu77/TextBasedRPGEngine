@@ -2,8 +2,9 @@ public class HealthPotion : IConsumable
 {
     public string Name => "Health Potion";
     public string Description => "Heals 20 HP.";
+    public TargetType SuggestedTarget => TargetType.Self;
     public int Weight => 1;
-    public int Quantity { get; set; }
+    public int Quantity { get; set; } = 1;
     private int _healValue = 20;
 
     public void Use(IDamageable target)
@@ -14,7 +15,4 @@ public class HealthPotion : IConsumable
             Quantity--;
         }
     }
-    
-    // This allows the Hero class to turn this item into a selectable Battle Action
-    public IAction GetAction() => new HealAction($"Drink {Name}", _healValue);
 }
